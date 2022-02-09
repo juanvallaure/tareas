@@ -1,0 +1,18 @@
+current directory: /home/runner/RailsRuby3/.bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+/nix/store/nibsfaa99bcpm00jn887ly21s4qdwv7p-ruby-3.0.3/bin/ruby -I /nix/store/nibsfaa99bcpm00jn887ly21s4qdwv7p-ruby-3.0.3/lib/ruby/3.0.0 -r ./siteconf20220126-118-jobu2w.rb extconf.rb
+checking for rb_io_wait()... yes
+checking for sys/ioctl.h... yes
+checking for FIONREAD in sys/ioctl.h,sys/ioctl.h... yes
+creating Makefile
+
+current directory: /home/runner/RailsRuby3/.bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= clean
+
+current directory: /home/runner/RailsRuby3/.bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\=
+compiling wait.c
+linking shared-object io/wait.so
+
+current directory: /home/runner/RailsRuby3/.bundle/ruby/3.0.0/gems/io-wait-0.2.1/ext/io/wait
+make DESTDIR\= install
+/nix/store/k21halap3i7hgglxpdnpx29538g3irin-coreutils-9.0/bin/install -c -m 0755 wait.so ./.gem.20220126-118-hcl59i/io
